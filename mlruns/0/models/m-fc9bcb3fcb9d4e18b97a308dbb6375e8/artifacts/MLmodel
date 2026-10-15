@@ -1,0 +1,23 @@
+artifact_path: /home/jazz/repos/mlflow-example-practice/mlruns/0/models/m-fc9bcb3fcb9d4e18b97a308dbb6375e8/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.8
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.1
+model_id: m-fc9bcb3fcb9d4e18b97a308dbb6375e8
+model_size_bytes: 11348
+model_uuid: m-fc9bcb3fcb9d4e18b97a308dbb6375e8
+prompts: null
+run_id: b2794557356945b98cd2a590ea7f6912
+utc_time_created: '2026-10-15 18:50:21.879103'
