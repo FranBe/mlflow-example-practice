@@ -26,6 +26,12 @@ Environment activation:
 ```bash
 conda activate tutorial
 ```
+In case that you already have the file, and you made changes on it:
+
+```bash
+conda env update --file conda.yml --prune
+```
+
 
 ### MLflow
 
